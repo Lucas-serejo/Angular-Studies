@@ -1,1 +1,36 @@
-<div> Password Generator</div>
+<div class= "container">
+  <h1>Password Generator</h1>
+
+  <div class="control">
+    <label for="Length">Password Length</label>
+    <input type="number" id="Length" [(ngModel)]="passLength" min="1" max="50" />
+  </div>
+
+  <div class="control-checkbox">
+    <label>
+      <input type="checkbox" [(ngModel)]="useLetters"> Use Letters
+    </label>
+  </div>
+
+  <div class="control-checkbox">
+    <label>
+      <input type="checkbox" [(ngModel)]="useNumbers"> Use Numbers
+    </label>
+  </div>
+  
+  <div class="control-checkbox">
+    <label>
+      <input type="checkbox" [(ngModel)]="useSymbols"> Use Symbols
+    </label>
+  </div>
+
+  <button (click)="onGeneratePassword()">Generate Password</button>
+
+  <div class="result" @if(generatedPassword)>
+    <h3>Your Generated Password:</h3>
+    <p>{{ generatedPassword }}</p>
+  </div>
+
+
+
+</div>
