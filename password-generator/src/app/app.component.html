@@ -24,9 +24,9 @@
     </label>
   </div>
 
-  <button (click)="onGeneratePassword()">Generate Password</button>
+  <button (click)="onGeneratePassword()" [disabled]="passLength < 0">Generate Password</button>
 
-  <div class="result" @if(generatedPassword)>
+  <div class="result">
     <h3>Your Generated Password:</h3>
     <p>{{ generatedPassword }}</p>
   </div>
