@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Alice Silva", "email": "alice@email.com", "role": "Product Owner" },
+  { "id": 2, "name": "Bruno Souza", "email": "bruno@email.com", "role": "Developer" },
+  { "id": 3, "name": "Carla Dias", "email": "carla@email.com", "role": "Data Analyst" },
+  { "id": 4, "name": "Daniel Rocha", "email": "daniel@email.com", "role": "Developer" },
+  { "id": 5, "name": "Eduardo Lima", "email": "edu@email.com", "role": "Product Owner" },
+  { "id": 6, "name": "Fernanda Costa", "email": "fernanda@email.com", "role": "Scrum Master" },
+  { "id": 7, "name": "Gabriel Martins", "email": "gabriel@email.com", "role": "UX Designer" },
+  { "id": 8, "name": "Helena Alves", "email": "helena@email.com", "role": "QA Engineer" },
+  { "id": 9, "name": "Igor Pereira", "email": "igor@email.com", "role": "Data Scientist" },
+  { "id": 10, "name": "Juliana Mendes", "email": "juliana@email.com", "role": "Business Analyst" }
+]
