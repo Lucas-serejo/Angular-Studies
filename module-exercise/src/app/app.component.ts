@@ -4,7 +4,7 @@ import { WidgetsModule } from './widgets/widgets.module';
 
 @Component({
   selector: 'app-root',
-  imports: [ WidgetsModule ],
+  imports: [ RouterOutlet, WidgetsModule ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
